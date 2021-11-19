@@ -1,1 +1,22 @@
 
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 50%;
+
+   
+}
+
+
+.cart-container{
+   position: absolute ;
+   right: 200px;
+   top: 0px;
+}
+
+.checkout-container{
+    position: absolute ;
+    right: 100px;
+    top: 200px;
+}
